@@ -1,0 +1,10 @@
+{
+    "project_name": "library",
+    "repo_name": "{{ cookiecutter.project_name }}",
+    "description": " {{ cookiecutter.project_name }} is for ",
+    "version": "0.0.1",
+    "year": 2020,
+    "author": "CL User",
+    "email": "{{ cookiecutter.author }}@mail.com",
+    "licence": "MIT"
+}

@@ -1,0 +1,8 @@
+lispimpl = sbcl
+
+rule cl
+   command = $lispimpl  --non-interactive --load $in
+
+build package : cl {{ cookiecutter.project_name}}.asd
+
+build test : cl run-tests.lisp
