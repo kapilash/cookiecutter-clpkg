@@ -11,13 +11,13 @@ Creates
 
 Like any [cookiecutter template](https://cookiecutter.readthedocs.io/en/stable/usage.html), run 
 
-`cookiecutter gh:kapilash/cookiecutter-clpkg.git` and provide options.
+`cookiecutter gh:kapilash/cookiecutter-clpkg` and provide options.
 
 
 ## Based On
 
 - Vindarel's [cl-cookieproject](https://github.com/vindarel/cl-cookieproject)
-  The basis for this project.
+  is the basis for this project.
 
 ---
 
