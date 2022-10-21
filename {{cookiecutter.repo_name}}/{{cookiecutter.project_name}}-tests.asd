@@ -12,6 +12,5 @@
                         :components ((:file "packages")
                                      (:file "test-{{ cookiecutter.project_name }}"))))
 
-  ;; The following would not return the right exit code on error, but still 0.
-  ;; :perform (test-op (op _) (symbol-call :fiveam :run-all-tests))
-  )
+  :perform (test-op (op _) (symbol-call :fiveam :run-all-tests))
+)
